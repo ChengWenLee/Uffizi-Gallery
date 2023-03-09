@@ -61,16 +61,31 @@
                                 <rect key="frame" x="20" y="71" width="374" height="280"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lHu-iZ-Hge">
+                            <textView autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lHu-iZ-Hge">
                                 <rect key="frame" x="34" y="660" width="347" height="161"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.92666978428971458" blue="0.53470535605280001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">Known as the “Birth of Venus”, the composition actually shows the goddess of love and beauty arriving on land, on the island of Cyprus, born of the sea spray and blown there by the winds, Zephyr and, perhaps, Aura. The goddess is standing on a giant scallop shell, as pure and as perfect as a pearl. She is met by a young woman, who is sometimes identified as one of the Graces or as the Hora of spring, and who holds out a cloak covered in flowers. Even the roses, blown in by the wind are a reminder of spring. The subject of the painting, which celebrates Venus as symbol of love and beauty, was perhaps suggested by the poet Agnolo Poliziano.
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <mutableString key="content">Known as the “Birth of Venus”, the composition actually shows the goddess of love and beauty arriving on land, on the island of Cyprus, born of the sea spray and blown there by the winds, Zephyr and, perhaps, Aura. The goddess is standing on a giant scallop shell, as pure and as perfect as a pearl. She is met by a young woman, who is sometimes identified as one of the Graces or as the Hora of spring, and who holds out a cloak covered in flowers. Even the roses, blown in by the wind are a reminder of spring. The subject of the painting, which celebrates Venus as symbol of love and beauty, was perhaps suggested by the poet Agnolo Poliziano.
 It is highly probable that the work was commissioned by a member of the Medici family, although there is nothing written about the painting before 1550, when Giorgio Vasari describes it in the Medici’s Villa of Castello, owned by the cadet branch of the Medici family since the mid-15th century. This hypothesis would seem to be born out by the orange trees in the painting, which are considered an emblem of the Medici dynasty, on account of the assonance between the family name and the name of the orange tree, which at the time was ‘mala medica’.
 Unlike the “Allegory of Spring”, which is painted on wood, the “Birth of Venus” was painted on canvas, a support that was widely used throughout the 15th century for decorative works destined to noble houses.
-Botticelli takes his inspiration from classical statues for Venus’ modest pose, as she covers her nakedness with long, blond hair, which has reflections of light from the fact that it has been gilded; even the Winds, the pair flying in one another’s embrace, is based on an ancient work, a gem from the Hellenistic period, owned by Lorenzo the Magnificent.</mutableString>
-                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+</mutableString>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Botticelli takes his inspiration from classical statues for Venus’ modest pose, as she covers her nakedness with long, blond hair, which has reflections of light from the fact that it has been gilded; even the Winds, the pair flying in one another’s embrace, is based on an ancient work, a gem from the Hellenistic period, owned by Lorenzo the Magnificent.</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="clipping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Brith of Venus Data" translatesAutoresizingMaskIntoConstraints="NO" id="jY8-WI-o4T">
